@@ -1,4 +1,4 @@
-### Rule 1
+# Rule 1
 ```
 javascript_modules/node $ node rule1                                                                                                           -- INSERT --
 (node:86374) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
@@ -16,7 +16,7 @@ SyntaxError: Cannot use import statement outside a module
     at internal/main/run_main_module.js:17:47
 ```
 
-### Rule 2
+# Rule 2
 ```
 javascript_modules/node $ node rule2.mjs                                                                                                       -- INSERT --
 (node:86408) ExperimentalWarning: The ESM module loader is experimental.
@@ -30,7 +30,7 @@ ReferenceError: require is not defined
     at async Loader.import (internal/modules/esm/loader.js:179:24)
 ```
 
-### Rule 3
+# Rule 3
 ```
 javascript_modules/node $ node rule3                                                                                                           -- INSERT --
 internal/modules/cjs/loader.js:984
