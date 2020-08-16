@@ -1,6 +1,7 @@
 # Rule 1
+
 ```
-javascript_modules/node $ node rule1                                                                                                           -- INSERT --
+javascript_modules/node $ node rule1                                                                                                        
 (node:86374) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
 /Users/mlim/Documents/software/javascript_modules/node/rule1.js:1
 import * as all from "./rule2.mjs";
@@ -17,8 +18,9 @@ SyntaxError: Cannot use import statement outside a module
 ```
 
 # Rule 2
+
 ```
-javascript_modules/node $ node rule2.mjs                                                                                                       -- INSERT --
+javascript_modules/node $ node rule2.mjs
 (node:86408) ExperimentalWarning: The ESM module loader is experimental.
 file:///Users/mlim/Documents/software/javascript_modules/node/rule2.mjs:1
 const foo = require("./rule1.js");
@@ -31,8 +33,9 @@ ReferenceError: require is not defined
 ```
 
 # Rule 3
+
 ```
-javascript_modules/node $ node rule3                                                                                                           -- INSERT --
+javascript_modules/node $ node rule3
 internal/modules/cjs/loader.js:984
     throw new ERR_REQUIRE_ESM(filename);
     ^
