@@ -1,4 +1,4 @@
-# Rule 1
+## Rule 1
 
 ```
 javascript_modules/node $ node rule1                                                                                                        
@@ -17,7 +17,7 @@ SyntaxError: Cannot use import statement outside a module
     at internal/main/run_main_module.js:17:47
 ```
 
-# Rule 2
+## Rule 2
 
 ```
 javascript_modules/node $ node rule2.mjs
@@ -32,7 +32,7 @@ ReferenceError: require is not defined
     at async Loader.import (internal/modules/esm/loader.js:179:24)
 ```
 
-# Rule 3
+## Rule 3
 
 ```
 javascript_modules/node $ node rule3
